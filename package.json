@@ -1,0 +1,22 @@
+{
+  "name": "test_task_softgames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^8.17.1"    
+  },
+  "devDependencies": {
+    "@types/stats.js": "^0.17.4",
+    "typescript": "^5.9.3",
+    "vite": "^4.5.14"
+  }
+}
