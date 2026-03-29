@@ -6,16 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^8.17.1"    
+    "pixi.js": "^8.17.1"
   },
   "devDependencies": {
     "@types/stats.js": "^0.17.4",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.9.3",
     "vite": "^4.5.14"
   }
